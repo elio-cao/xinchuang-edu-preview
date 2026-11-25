@@ -314,6 +314,9 @@ li{overflow-wrap:anywhere}
 .chartbox{background:#fff;border:1px solid var(--line);border-radius:12px;
   padding:16px 14px;margin:16px 0;overflow-x:auto}
 .chartbox svg{display:block;width:100%;max-width:640px;height:auto;margin:0 auto}
+/* 非图表图片（.md 里的标准图片语法） */
+.imgpara{text-align:center;margin:16px 0}
+.mdimg{max-width:100%;height:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
 .sb details.dtree{flex:0 0 auto}
 .sb details.dtree>summary{list-style:none;cursor:pointer;padding:4px 6px;border-radius:6px;
   font-size:11px;font-weight:700;color:var(--ink3);white-space:nowrap}
@@ -976,7 +979,7 @@ mark{background:#ffe9a8;color:inherit;border-radius:2px;padding:0 1px}
 <line x1="21.0" y1="696.0" x2="21.0" y2="705.0" stroke="#94a3b8" stroke-width="1.4"/>
 </svg>
 </div>
-<blockquote class="">📊 <strong>这张「财务分配总逻辑图」在网页端是矢量图形</strong>（不是字符画），本地图片文件：<br><code>handbook/assets/财务分配表-总逻辑图.svg</code>。<br><strong>下方表 1 / 表 2 / 表 3 就是这张图的完整数据版</strong> —— 图由 <code>scripts/build-diagram.py</code><br><strong>从表格自动生成</strong>（数字只有一份，改表即改图；表里读不到对应行则直接构建失败）。</blockquote>
+<blockquote class="">📊 <strong>这张「财务分配总逻辑图」是矢量图形</strong>（不是字符画），源文件：<br><code>handbook/assets/财务分配表-总逻辑图.svg</code>（另有 <code>.png</code> 便利导出）。<br><strong>下方表 1 / 表 2 / 表 3 就是这张图的完整数据版</strong> —— 图由 <code>scripts/build-diagram.py</code><br><strong>从表格自动生成</strong>（数字只有一份，改表即改图；表里读不到对应行则直接构建失败）。</blockquote>
 <hr>
 <h3 id="d5-4">二、7 大表格</h3>
 <h4 id="d5-5">表 1：项目利润分解（示例：1 个 50 万项目）</h4>
@@ -2932,7 +2935,7 @@ v4.5 中心数: 2 + 4 + 1 + 1 + 3.5 + 1 + 0.5 = 13 (+0.5)</code></pre>
 <h4 id="d18-22">5 年累计节税 200 万+！</h4></section>
   <div class="foot">
     <b>内蒙古灵欣教育科技有限公司</b> · 公司资料总站 · 生成于 2026-11-25 ·
-    现行文件共 18 份、286 个章节、153,627 字符。<br>
+    现行文件共 18 份、286 个章节、153,642 字符。<br>
     本页由 <code>scripts/build-site.py</code> 从 <code>handbook/</code> 与 <code>.handbook/</code> 下的源文件自动生成；
     如需修改内容，请改源文件后重新生成，<b>不要直接改本页</b>。<br>
     历史留档件（3 份：决策请示 / 身份待决安排 / 设立期创始人协议）**不在本页展示**，
